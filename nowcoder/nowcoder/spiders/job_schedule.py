@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from newcode.items import NewcodeItem
+from nowcoder.items import NowcoderItem
 
 
 class JobScheduleSpider(scrapy.Spider):

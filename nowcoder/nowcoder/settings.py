@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for newcode project
+# Scrapy settings for nowcoder project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'newcode'
+BOT_NAME = 'nowcoder'
 
-SPIDER_MODULES = ['newcode.spiders']
-NEWSPIDER_MODULE = 'newcode.spiders'
+SPIDER_MODULES = ['nowcoder.spiders']
+NEWSPIDER_MODULE = 'nowcoder.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'newcode (+http://www.yourdomain.com)'
+#USER_AGENT = 'nowcoder (+http://www.yourdomain.com)'
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Thunderbird/45.3.0'
 
 # Obey robots.txt rules
@@ -48,13 +48,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'newcode.middlewares.NewcodeSpiderMiddleware': 543,
+#    'nowcoder.middlewares.NewcodeSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'newcode.middlewares.NewcodeDownloaderMiddleware': 543,
+#    'nowcoder.middlewares.NewcodeDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'newcode.pipelines.NewcodePipeline': 300,
+#    'nowcoder.pipelines.NewcodePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
